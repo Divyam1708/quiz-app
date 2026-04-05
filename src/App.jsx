@@ -42,7 +42,7 @@ function App(props) {
   return(
     <div id='App'>
 
-      <Link>
+      <Link to={'/'}>
       <h2>BACK TO HOME</h2>
       </Link>
       <div>
