@@ -1,0 +1,44 @@
+.question_card{
+    padding: 1rem;
+    border: 2px solid yellow;
+    margin-block: 0.5rem;
+}
+
+.question_card.correct_card{
+    background-color: rgba(173, 255, 47,0.4);
+    color: black;
+}
+
+.question_card.wrong_card{
+    background-color: rgba(255, 0, 0,0.4);
+    color: rgb(247, 242, 234);
+}
+
+.options_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    margin-block: 0.5rem;
+}
+
+.question_options{
+    width: fit-content;
+    max-width: 15rem;
+    margin-block: 0.5rem;
+}
+.question_options:focus{
+    border: none;
+}
+.question_options:active{
+    border: none;
+}
+.question_options:visited{
+    border: none;
+}
+
+.correct_option_button{
+    background-color: blue;
+    color: white;
+}
